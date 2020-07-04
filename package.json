@@ -1,0 +1,34 @@
+{
+  "name": "ltsn-jc",
+  "version": "1.0.0",
+  "description": "CommandLine Tool for Node LTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soso7c/lstn.git"
+  },
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
+  "keywords": [
+    "Node",
+    "LTS"
+  ],
+  "author": "JC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soso7c/lstn/issues"
+  },
+  "homepage": "https://github.com/soso7c/lstn#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.6.0",
+    "generator-nm": "^5.1.1",
+    "yo": "^3.1.1"
+  }
+}
